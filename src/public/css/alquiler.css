@@ -1,0 +1,112 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.navegador{
+    margin: 0px auto;
+	background: black;
+}
+
+.navegador ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	color: white;
+	font-family: 'Open sans';
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu li a:hover{
+	background: gray;
+	transition: all .9s;
+}
+
+/*submenu*/
+.submenu{
+	position: absolute;
+	background: gray;
+	width: 140%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1,5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*CUEERPO*/
+
+h1 {
+    font-size: 35px;
+    font-family:  sans-serif;
+    font-weight: lighter; 
+}
+
+h5 {
+    font-size: 15px;
+    font-family:  sans-serif;
+    font-weight: lighter; 
+}
+
+p {
+    font:  25px sans-serif;
+}
+  
+body {
+    text-align: center;
+}
+
+.imagen{
+    padding: 30px;
+}
+
+.bicicleta1{
+    margin: 50px;
+}
+
+
+.boton1{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color:white; 
+    margin: 20px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.boton2{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color:white;
+    border: 0;
+    border-radius: 15px;
+}
+  

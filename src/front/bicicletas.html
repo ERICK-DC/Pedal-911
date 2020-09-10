@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bicicletas</title>
+</head>
+<body>
+    <div>
+        <div class="contenedor">
+            <nav class= "navegador">
+                <ul class="menu">
+                    <li><a href="#"> Pedal 911 </a></li>    
+                    <li><a href="/bicicletas"> Inicio </a></li>   
+                    <li><a href="/alquiler"> Mi bicicleta </a></li> 
+                    <li><a href="#"> Usuario </a>    
+                        <ul class="submenu">
+                            <li><a href="/"> Cerrar Sesión</a></li>
+                        </ul>
+                    </li> 
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="slick-list" id="slick-list">
+            <button class="slick-arrow slick-prev" id="button-prev">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+            </button>
+            <div class="slick-track" id="track">
+                <div class="slick">
+                    <div class="bicicleta1">
+                            <picture>
+                                <span class="codigo">
+                                    <form action="/alquiler" method="GET">
+                                        <input type=image src="/imagenes/bc_montanera1.jpg" alt="imagenes"> 
+                                    </form> 
+                                </span>
+                            <!--<img src="./imagenes/bc_montañera1.jpg" alt="imagenes"> -->    
+                            </picture>
+                            <h1>Bicicleta Montañera</h1>
+                            <p>
+                            Bicicleta marca SUNRACE aro 26 <br>
+                            Aros 26 en Aluminio <br>
+                            Cuadrante en Acero <br>
+                            Frenos V-Brake <br>
+                            Catalina de 3 velocidades <br>
+                            Piñon de 6 velocidades <br>
+                            </p>
+                    </div>
+                </div>
+
+                <div class="slick">
+                    <div class="bicicleta2">
+                        <picture>
+                            <span class="codigo">
+                                <form action="/alquiler#2" method="GET">
+                                    <input type=image src="./imagenes/BicicletaDeRuta1.jpg" alt="imagenes"> 
+                                </form> 
+                            </span>
+                            <!--<img src="./imagenes/BicicletaDeRuta1.jpg" alt="imagenes"> -->
+                        </picture>
+                        <h1>Bicicleta de Ruta</h1>
+                        <p> 
+                            Cuadro	SCULTURA LITE-BSA aluminium BSA bottom bracket <br>
+                            Llantas	Maxxis Dolomites 700x25C folding <br>
+                            Transmision	Shimano Claris <br>
+                            Cassette	Sunrace CS8 11-28 teeth 8 speed <br>
+                            Frenos	Shimano Claris <br>
+                            Poste Manubrio	Merida Comp CC 31.8mm diametro -6° stem angulo <br>
+                            Asiento	MERIDA Comp SL <br>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="slick">
+                    <div class="bicicleta3">
+                        <picture>
+                            <span class="codigo">
+                                <form action="/alquiler#3" method="GET">
+                                    <input type=image src="./imagenes/bici_hibricas1.jpg" alt="imagenes"> 
+                                </form> 
+                            </span>
+                            <!--<img src="./imagenes/bici_hibricas1.jpg" alt="imagenes"> -->
+                        </picture>
+                        <h1>Bicicleta Hibrica</h1>
+                        <p>
+                            Cuandrante EAGLE FX3 26" <br>
+                            ARO RIN 26" Aluminio <br>
+                            Tracción: SHIMANO 3x7 <br>
+                            Palancas: SHIMANO <br>
+                            Frenos: Disco mecanico/ Hidraulico <br>
+                            Suspensión: Sin bloqueo/ Con bloqueo <br>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="slick">
+                    <div class="bicicleta4">
+                        <picture>
+                            <span class="codigo">
+                                <form action="/alquiler#4" method="GET">
+                                    <input type=image src="./imagenes/bicicleta-urbana2.jpg" alt="imagenes"> 
+                                </form> 
+                            </span>
+                            <!-- <img src="./imagenes/bicicleta-urbana2.jpg" alt="imagenes"> -->
+                        </picture>
+                        <h1>Bicicleta Urbana</h1>
+                        <p>
+                            Cuadrante del metal/ALUMINIO(aliación) - Liviana <br>
+                            Medidas: 36,83cm x 67,8cm <br>
+                            Llanta CRUISER- PARED BLANCA (26 x 2.125) para ASFALTO <br>
+                            Aros de aluminio <br>
+                            Transmisión SHIMANO 7 velocidades (sistema de giro manual) <br>
+                            Frenos de delantero y trasero (en manubrios) <br>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="slick">
+                    <div class="bicicleta5">
+                        <picture>
+                            <span class="codigo">
+                                <form action="/alquiler#5" method="GET">
+                                    <input type=image src="./imagenes/Bicicletas-Cruisers1.jpg" alt="imagenes"> 
+                                </form> 
+                            </span>
+                            <!--<img src="./imagenes/Bicicletas-Cruisers1.jpg" alt="imagenes"> -->
+                        </picture>
+                        <h1>Bicicleta Cruisers</h1>
+                        <p>
+                            Llantas 26x 2.10 (54-559) - para ciudad <br>
+                            Freno contra pedal + 1 freno delantero <br>
+                            Marco de Acero (aliasión - liviana) <br>
+                            Aro 26 <br>
+                            Aros Aluminio <br>
+                            Parrilla Trasera <br>
+                            Estuche para cargar pertenencias(herramientas, etc.) <br>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="slick">
+                    <div class="bicicleta6">
+                        <picture>
+                            <span class="codigo">
+                                <form action="./images/images6.html" method="GET">
+                                    <input type=image src="./imagenes/bici_bmx1.jpg" alt="imagenes"> 
+                                </form> 
+                            </span>
+                            <!--<img src="./imagenes/bici_bmx1.jpg" alt="imagenes"> -->
+                        </picture>
+                        <h1>Bicicleta BMX</h1>
+                        <p>
+                            Bicicleta de bicicross BMX <br>
+                            Marca: GW <br>
+                            Modelo: Elite <br>
+                            Origen: Taiwan <br>
+                            Excelente Calidad <br>
+                            Marco de Aluminio <br>
+                            Garantía un año <br>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="slick">
+                    <div class="bicicleta7">
+                        <picture>
+                            <span class="codigo">
+                                <form action="./images/images7.html" method="GET">
+                                    <input type=image src="./imagenes/Bicicleta-Touring1.jpg" alt="imagenes"> 
+                                </form> 
+                            </span>
+                            <!--<img src="./imagenes/Bicicleta-Touring1.jpg" alt="imagenes"> -->
+                        </picture>
+                        <h1>Bicicleta Touring</h1>
+                        <p>
+                            Marca Merida <br>
+                            Modelo Road Race 880 <br>
+                            Rodado 26" <br>
+                            Cantidad de velocidades 9 <br>
+                            Tipo de freno delantero DUAL PIVOT <br>
+                            Tipo de freno trasero Dual Pivot <br>
+                            Cambios delanteros Shimano sora 9V <br>
+                            Cambios traseros Shimano Sora RD-3400-SS 9V <br>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="slick">
+                    <div class="bicicleta8">
+                        <picture>
+                            <span class="codigo">
+                                <form action="./images/images8.html" method="GET">
+                                    <input type=image src="./imagenes/bici_fixie1.jpg" alt="imagenes"> 
+                                </form> 
+                            </span>
+                            <!-- <img src="./imagenes/bici_fixie1.jpg" alt="imagenes"> -->
+                        </picture>
+                        <h1>Bicicleta Fixie</h1>
+                        <p>
+                            Marco de acero liviano <br>
+                            Mono plato en acero liviano <br>
+                            Componentes en aluminio <br>
+                            Doble freno de disco Shimano <br>
+                            Llanta de aleación perfil de 40 mm <br>
+                            7 velocidades <br>
+                            Ruedas de 700 x 23 c <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="slick-arrow slick-next" id="button-next">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+            </button>
+        </div>
+    </div>
+    <script src="../axios.js"></script>
+</body>
+</html>

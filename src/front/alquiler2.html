@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/css/alquiler.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alquiler</title>
+</head>
+<body>
+    <div>
+        <div class="contenedor">
+            <nav class= "navegador">
+                <ul class="menu">
+                    <li><a href="#"> Pedal 911 </a></li>    
+                    <li><a href="/bicicletas"> Inicio </a></li>   
+                    <li><a href="/alquiler_2"> Mi bicicleta </a></li> 
+                    <li><a href="#"> Usuario </a>    
+                        <ul class="submenu">
+                            <li><a href="/"> Cerrar Sesión</a></li>
+                        </ul>
+                    </li> 
+                </ul>
+            </nav>
+        </div>
+
+        <div class="bicicleta1">
+            <form action="/alquiler_2" method="post">
+                <h1>Bicicleta Montañera</h1>
+
+                <div class="imagen">
+                    <img src="../public/imagenes/" alt="imagenes">
+                </div>
+               
+            </form> 
+        </div>
+
+        <div class="almacen">
+            <div class="row">
+                <div class="col"></div>
+            </div>
+            <h1>Alquiler</h1>
+            <div class="hora">
+                <p id="temporizador" class="d-flex justify-content-center font-weight-bold">00.00</p>
+            </div>
+            
+        </div>
+
+        <div class="botones" role="group">
+            
+            <button type="button" class="boton1" id="iniciarS" color="accent">Iniciar</button>/
+            <button type="button" class="boton2" id="grabar">Pagar</button>
+            
+        </div>
+
+       <div id="almacenarTiempos"style="display: none;">
+            <h5>Tiempos Grabados</h5>
+        </div>
+
+    
+</body>
+    <script src="../axios.js"></script>
+    <script src="../reloj.js"></script>
+</html>

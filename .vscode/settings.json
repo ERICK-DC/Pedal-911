@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "pedal911",
+            "driver": "PostgreSQL",
+            "name": "postgres_db",
+            "password": "nacional12",
+            "port": 5432,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "postgres"
+        }
+    ]
+}
